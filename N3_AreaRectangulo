@@ -12,7 +12,7 @@ int main ();
   scanf("%f\n",&altura);
   printf("Inserte la base del Rectangulo");
   scanf("%f\n",&base);
-  resultado=altura*base
+  resultado=altura*base;
   printf("El Area del rectangulo es:%f\n",resultado);
   getch ();
   return 0;
