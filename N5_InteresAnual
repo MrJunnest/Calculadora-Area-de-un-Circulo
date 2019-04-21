@@ -1,0 +1,19 @@
+# Calculadora-Area-de-un-Circulo
+Tarea programación C++
+/* Calcular el interes Anual.*/
+#include <stdio.h>
+#include <conio.h>
+int main ()
+{
+  float deposito;
+  float resultado;
+  int años;
+  printf("Inserte el deposito que ha hecho\n");
+  scanf("%f\n",&deposito);
+  printf("¿Cuantos años ha sido?\n");
+  scanf("%d\n",&años);
+  resultado=(deposito(1+%)años)
+  printf("El Interés Compuesto es:%f\n",resultado);
+  getch ();
+  return 0;
+}
