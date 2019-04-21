@@ -1,0 +1,18 @@
+# Calculadora-Area-de-un-Circulo
+Tarea programación C++
+/*Celsius a  Fahrenheit. */
+#include <stdio.h>
+#include <conio.h>
+#define op 9/5
+#define op1 32
+int main ();
+{
+  float Cel;
+  float Fa;
+  printf("Coloque los grados Celsius");
+  scanf("%f\n",&Cel);
+  Fa=((op*cel)+op1);
+  printf("La temperatura a Fahrenheit es:%f\n",Fa);
+  getch();
+  return 0;
+}
