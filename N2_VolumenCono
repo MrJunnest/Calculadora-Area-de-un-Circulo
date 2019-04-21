@@ -13,7 +13,7 @@ int main ();
   scanf("%f\n",&radio);
   printf("Inserte la altura\n");
   scanf("%f\n",&altura);
-  resultado=1/3*Pi((radio*radio)*altura)
+  resultado=1/3*Pi((radio*radio)*altura);
   printf("El volumen del cono es:%f\n",resultado);
   getch ();
   return 0;
