@@ -1,17 +1,15 @@
-# Calculadora-Area-de-un-Circulo
-Tarea programación C++
 /* Para encontrar el Area de un Rectangulo */
 #include <stdio.h>
 #include <conio.h>
-int main ();
+int main ()
 {
   float altura;
   float base;
   float resultado;
-  printf("Inserte la altura del Rectangulo");
-  scanf("%f\n",&altura);
-  printf("Inserte la base del Rectangulo");
-  scanf("%f\n",&base);
+  printf("Inserte la altura del Rectangulo\n");
+  scanf("%f",&altura);
+  printf("Inserte la base del Rectangulo\n");
+  scanf("%f",&base);
   resultado=altura*base;
   printf("El Area del rectangulo es:%f\n",resultado);
   getch ();
